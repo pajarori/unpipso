@@ -1,4 +1,5 @@
-import requests, re, argparse, os
+import requests, re, argparse, os, sys
+sys.setrecursionlimit(999999999)
 
 class UnPipsomania:
    def __init__ ( self, options ):
